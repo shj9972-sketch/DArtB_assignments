@@ -56,7 +56,11 @@ https://www.youtube.com/watch?v=Il6L8OtNFpc&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 # 2️⃣ 수행 인증
 
-<![2주차 수행 인증](image/week2_1.png)>
+<![2주차 수행 인증](image/week2_1.png)
+![2주차 수행 인증](image/week2_2.png)
+![2주차 수행 인증](image/week2_3.png)
+![2주차 수행 인증](image/week2_4.png)
+![2주차 수행 인증](image/week2_5.png)>
 
 
 
