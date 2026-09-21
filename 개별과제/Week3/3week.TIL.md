@@ -74,14 +74,14 @@ df[df['컬럼명'].str.contains('찾을문자', na=False)]>
 
 # 2️⃣ 수행 인증
 
-![3주차 수행 인증](images/week3_1.png)
+<![3주차 수행 인증](images/week3_1.png)
 ![3주차 수행 인증](images/week3_2.png)
 ![3주차 수행 인증](images/week3_3.png)
 ![3주차 수행 인증](images/week3_4.png)
 ![3주차 수행 인증](images/week3_5.png)
 ![3주차 수행 인증](images/week3_6.png)
 ![3주차 수행 인증](images/week3_7.png)
-![3주차 수행 인증](images/week3_8.png)
+![3주차 수행 인증](images/week3_8.png)>
 
 
 <br>
