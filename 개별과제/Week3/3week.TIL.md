@@ -36,9 +36,6 @@ https://www.youtube.com/watch?v=hhbzUEQWdTg&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 # 1️⃣ 개념 정리 
 
-## 01. 불필요한 데이터 삭제하기
-
-<# 1 개념 정리
 
 ## 01. 불필요한 데이터 삭제하기
 
