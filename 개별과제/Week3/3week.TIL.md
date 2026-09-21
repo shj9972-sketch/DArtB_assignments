@@ -74,8 +74,23 @@ df[df['컬럼명'].str.contains('찾을문자', na=False)]>
 
 # 2️⃣ 수행 인증
 
-<!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 4~6장의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
-<!-- 이번 주차에는 API를 발급받는 과정도 포함하여 첨부해주세요.-->
+<![3주차 수행 인증](images/week3_
+2.png
+![3주차 수행 인증](images/week3_
+3.png
+![3주차 수행 인증](images/week3_
+4.png
+![3주차 수행 인증](images/week3_
+5.png
+![3주차 수행 인증](images/week3_
+6.png
+![3주차 수행 인증](images/week3_
+7.png
+![3주차 수행 인증](images/week3_
+8.png>
+
+<![3주차 수행 인증](images/week3_
+1.png)>
 
 
 <br>
