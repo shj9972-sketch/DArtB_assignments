@@ -113,6 +113,10 @@ SQL_BASIC 정규 과제는 매주 정해진 분량의 `초보자를 위한 BigQu
 문제 링크: [특정 옵션이 포함된 자동차 리스트 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/157343)
 
 풀이 과정:
+SELECT FACTORY_ID, FACTORY_NAME, ADDRESS
+FROM FOOD_FACTORY
+WHERE ADDRESS LIKE '강원도%'
+ORDER BY FACTORY_ID ASC;
 
 ```
 - 찾으려는 문자열 조건: OPTIONS 컬럼에 '네비게이션'이 포함된 자동차
@@ -127,14 +131,18 @@ SQL_BASIC 정규 과제는 매주 정해진 분량의 `초보자를 위한 BigQu
 문제 링크: [강원도에 위치한 생산공장 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131112)
 
 풀이 과정:
+SELECT FACTORY_ID, FACTORY_NAME, ADDRESS
+FROM FOOD_FACTORY
+WHERE ADDRESS LIKE '강원도%'
+ORDER BY FACTORY_ID ASC;
 
 ```
-- 문제에서 요구한 조건:
-- WHERE 절로 옮긴 방식:
-- 정렬 기준:
+- 문제에서 요구한 조건: FOOD_FACTORY 테이블에서 주소가 강원도로 시작하는 식품공장의 공장 ID, 공장 이름, 주소를 조회하는 것
+- WHERE 절로 옮긴 방식: ADDRESS 컬럼이 '강원도'로 시작하는 행만 조회하기 위해 WHERE ADDRESS LIKE '강원도%'를 사용했습니다.
+- 정렬 기준: 문제에서 요구한 대로 FACTORY_ID를 기준으로 오름차순 정렬했습니다.
 ```
 
-<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. -->
+<![4주차 수행 인증](images/week4_3.png)>
 
 ## 🧩 문제 3
 
@@ -143,12 +151,12 @@ SQL_BASIC 정규 과제는 매주 정해진 분량의 `초보자를 위한 BigQu
 풀이 과정:
 
 ```
-- 찾으려는 문자열 패턴:
-- 대소문자를 처리한 방식:
-- 정렬 기준:
+- 찾으려는 문자열 패턴:  이름에 'EL' 또는 'el'이 들어가는 개
+- 대소문자를 처리한 방식:  UPPER(NAME)을 사용해 이름을 모두 대문자로 바꾼 뒤 LIKE '%EL%' 조건으로 조회했습니다.
+- 정렬 기준: NAME을 기준으로 오름차순 정렬하고, 이름이 같은 경우 ANIMAL_ID를 기준으로 오름차순 정렬했습니다.
 ```
 
-<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. -->
+<![4주차 수행 인증](images/week4_4.png)>
 
 ## 🧩 문제 4
 
@@ -162,7 +170,7 @@ SQL_BASIC 정규 과제는 매주 정해진 분량의 `초보자를 위한 BigQu
 - 정렬 기준:
 ```
 
-<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. -->
+<![4주차 수행 인증](images/week4_5.png)>
 
 ---
 
